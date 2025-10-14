@@ -1,0 +1,33 @@
+{
+  "name": "des-project",
+  "version": "1.0.0",
+  "description": "Discrete Event Simulation VS Code Extension",
+  "main": "extension.js",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "des.simulationViewer",
+        "displayName": "Discrete Event Simulation Viewer",
+        "selector": [
+          {
+            "filenamePattern": "*.des.js"
+          }
+        ],
+        "priority": "default"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "@types/vscode": "^1.105.0"
+  }
+}

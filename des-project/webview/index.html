@@ -1,0 +1,33 @@
+<!-- des-project\webview\index.html -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DES Simulator Viewer</title>
+
+    <link rel="stylesheet" href="${styleUri}">
+</head>
+<body>
+    <header id="simulationTitle">이산 사건 시뮬레이션 엔진 - Gemini 카페 운영</header>
+    
+    <div class="simulation-option">
+        <input type="checkbox" id="zeroTimeArrivalCheck" checked>
+        <label for="zeroTimeArrivalCheck">첫 번째 손님은 [T=0]에 도착 (과제 기본값)</label>
+    </div>
+
+    <button id="runButton">시뮬레이션 시작</button>
+
+    <section id="summary" aria-live="polite">실행 대기 중...</section>
+
+    <section>
+        <h2>시뮬레이션 로그</h2>
+
+        <div id="output" role="log" aria-live="polite">로그가 여기에 표시됩니다.</div>
+    </section>
+
+    <script src="${scriptUri}"></script> 
+</body>
+</html>
