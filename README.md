@@ -44,9 +44,10 @@ A Visual Studio Code Extension for Discrete Event Simulation(DES) Analysis, Mode
 
 ### 3.1. 환경 준비
 
-1. `Node.js` 설치: `Node.js` 공식 웹사이트에서 최신 `LTS` 버전을 설치합니다.
-2. 프로젝트 폴더 준비: `VS Code`를 실행하고 `des-project` 폴더를 작업 영역으로 엽니다.
-3. 의존성 패키지 설치: 프로젝트 터미널에서 `npm install` 명령을 실행하여 개발 의존성 패키지를 설치합니다.
+1. Node.js 설치: Node.js v20.x 또는 v22.x (LTS) 버전을 설치합니다.
+2. VS Code 버전: Visual Studio Code v1.80.0 이상 버전을 사용니다.
+3. 프로젝트 폴더 준비: `VS Code`를 실행하고 `des-project` 폴더를 작업 영역으로 엽니다.
+4. 의존성 패키지 설치: 프로젝트 터미널에서 `npm install` 명령을 실행하여 개발 의존성 패키지를 설치합니다.
 
 ### 3.2. 확장 프로그램 실행 및 테스트
 
